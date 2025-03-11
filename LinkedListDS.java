@@ -3,8 +3,8 @@ public class LinkedListDS {
     public static void main(String[] args) { 
         //contains a long chain of nodes, each node contains 2 pieces of information: data and address to the next node in the list
 
-        //Advantage: Better for insertion and deletion.
-        //Disadvantage: Finding elements would require traversing the entire LinkedList.
+        //Advantage: Better for insertion and deletion, low memory waste
+        //Disadvantage: Finding elements would require traversing the entire LinkedList, greater memory usage
         
         LinkedList<String> linkedList = new LinkedList<String>();
         
@@ -26,6 +26,11 @@ public class LinkedListDS {
 
 
         System.out.println(linkedList);
+
+        //Uses
+        // 1.Implement Stack/Queue
+        // 2.GPS 
+        // 3.Music playlist
 
     }
 }
