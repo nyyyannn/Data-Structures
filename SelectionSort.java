@@ -4,6 +4,8 @@ public class SelectionSort {
     //Search through an array and keep track of the minimum value during each
     //iteration. At the end of each iterations, we swap variables.
     //Time complexity: O(n^2)
+    //Space complecity: O(n)
+
     public static void main(String[] args) {
         int array[]={9,8,3,2,1,4,5,6,7};
         selectionSort(array);

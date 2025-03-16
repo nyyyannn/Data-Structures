@@ -5,6 +5,7 @@ public class BubbleSort {
     //compares two elements and swaps them until the entire array is sorted
     //Highly inefficient
     //Time complexity: O(n^2)
+    //Space complecity: O(n)
     public static void main(String[] args) {
         int arr [] = {9,2,3,4,5,6,7,1,8};
         bubbleSort(arr);

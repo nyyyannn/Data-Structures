@@ -3,6 +3,8 @@ import java.util.Arrays;
 public class InsertionSort {
     // After comparing elements to the left, shift elements to the right to make room to insert a value
     // Lesser steps than bubble sort, best case is O(n) compared to Selection sort O(n^2)
+    //Space complecity: O(n)
+
     public static void main(String[] args) {
         int array[] = {9,1,2,4,3,5,6,7,8};
         insertionSort(array);
