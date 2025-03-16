@@ -23,7 +23,7 @@ public class QuickSort {
         i=start-1;
         for(j=start;j<=end-1;j++)
         {
-            if(array[j]<pivot)
+            if(array[j]<=pivot)
             {
                 i++;
                 int temp = array[i];
